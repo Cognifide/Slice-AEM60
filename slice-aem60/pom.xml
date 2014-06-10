@@ -59,34 +59,10 @@
 			<artifactId>org.osgi.core</artifactId>
 		</dependency>
 
-		<!-- Adobe CQ5 -->
+ 		<!-- Adobe AEM6 -->
 		<dependency>
-			<groupId>com.day.cq</groupId>
-			<artifactId>cq-commons</artifactId>
-			<version>5.6.2</version>
-			<scope>provided</scope>
-		</dependency>
-		
-		<!-- Adobe CQ5 DAM -->
-		<dependency>
-			<groupId>com.day.cq.dam</groupId>
-			<artifactId>cq-dam-api</artifactId>
-			<version>5.5.0</version>
-			<scope>provided</scope>
-		</dependency>
-		
-		<!-- Adobe CQ5 WCM -->
-		<dependency>
-			<groupId>com.day.cq.wcm</groupId>
-			<artifactId>cq-wcm-api</artifactId>
-			<version>5.6.4</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.day.cq.wcm</groupId>
-			<artifactId>cq-wcm-foundation</artifactId>
-			<version>5.6.2</version>
-			<scope>provided</scope>
+			<groupId>com.adobe.aem</groupId>
+			<artifactId>aem-api</artifactId>
 		</dependency>
 
 		<!-- javax -->
