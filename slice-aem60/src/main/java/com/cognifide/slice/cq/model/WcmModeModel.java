@@ -36,25 +36,18 @@ import com.google.inject.Inject;
  * <li>ANALYTICS - WCM is in analytics mode, added in AEM5.6</li>
  * </ul>
  * 
- * The class stores the raw WCM mode and a set of boolean variables to be set for ease of access in the view.
+ * The class stores the raw WCM mode and a set of boolean variables to be set for ease of access in the view.<br>
+ * <br>
  * 
- * @see com.day.cq.wcm.api.WCMMode
+ * Please note that since AEM 6.0, it works correctly ONLY in classic interface (see AuthoringUIMode)
+ * 
+ * @see {@link com.day.cq.wcm.api.WCMMode}, {@link com.day.cq.wcm.api.AuthoringUIMode}
  * @author Jan Kuźniak
  */
 public class WcmModeModel {
 
-	/**
-	 * TODO what is this?
-	 */
-	public static final String REAL_AUTHOR = "REALAUTHOR";
-
 	private final WCMMode wcmMode;
 
-	/**
-	 * Creates model instance.
-	 * 
-	 * @param wcmMode the WCM mode.
-	 */
 	@Inject
 	public WcmModeModel(final WCMMode wcmMode) {
 		this.wcmMode = wcmMode;
