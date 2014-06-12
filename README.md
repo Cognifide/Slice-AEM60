@@ -30,7 +30,7 @@ Compile and install:
 
 ## Usage
 
-Add dependencied to your POM file:
+Add dependency to your POM file:
 
    
     <dependency>
