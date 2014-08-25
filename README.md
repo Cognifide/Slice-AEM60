@@ -38,3 +38,10 @@ Add dependency to your POM file:
         <artifactId>slice-aem60</artifactId>
         <version>1.0.0</version>
     </dependency>
+    
+
+## Documentation
+
+* [Slice wiki](https://cognifide.atlassian.net/wiki/display/SLICE)
+* [Slice users mailing group](http://slice-users.2340343.n4.nabble.com/) if you have any question on how to use it
+* [Slice issue tracking](https://cognifide.atlassian.net/browse/SLICE)
