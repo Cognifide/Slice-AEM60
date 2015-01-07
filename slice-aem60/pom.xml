@@ -37,7 +37,11 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<!-- Slice -->	
+		<!-- Slice -->
+		<dependency>
+			<groupId>com.cognifide.slice</groupId>
+			<artifactId>slice-core-api</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.cognifide.slice</groupId>
 			<artifactId>slice-mapper-api</artifactId>
