@@ -24,6 +24,7 @@ package com.cognifide.slice.cq.module;
 
 import com.cognifide.slice.api.scope.ContextScoped;
 import com.cognifide.slice.cq.mapper.processor.ImageFieldProcessor;
+import com.cognifide.slice.cq.mapper.processor.InheritedFieldProcessor;
 import com.cognifide.slice.mapper.MapperBuilder;
 import com.cognifide.slice.mapper.api.Mapper;
 import com.google.inject.AbstractModule;
@@ -44,7 +45,9 @@ public class CQMapperModule extends AbstractModule {
 	@ContextScoped
 	public Mapper getMapper(MapperBuilder mapperBuilder) {
 		ImageFieldProcessor imageProcessor = new ImageFieldProcessor();
-		return mapperBuilder.addDefaultSliceProcessors().addFieldProcessor(imageProcessor).build();
+		InheritedFieldProcessor inheritedProcessor = new InheritedFieldProcessor();
+		return mapperBuilder.addDefaultSliceProcessors().
+				addFieldProcessor(imageProcessor).addFieldProcessor(inheritedProcessor).build();
 	}
 
 }
