@@ -37,7 +37,11 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<!-- Slice -->	
+		<!-- Slice -->
+		<dependency>
+			<groupId>com.cognifide.slice</groupId>
+			<artifactId>slice-core-api</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.cognifide.slice</groupId>
 			<artifactId>slice-mapper-api</artifactId>
@@ -79,12 +83,6 @@
 		<dependency>
 			<groupId>org.apache.felix</groupId>
 			<artifactId>org.apache.felix.scr.annotations</artifactId>
-		</dependency>
-		
-		<!-- Apache Sling -->
-		<dependency>
-			<groupId>org.apache.sling</groupId>
-			<artifactId>org.apache.sling.api</artifactId>
 		</dependency>
 
 		<!-- Apache Commons -->
