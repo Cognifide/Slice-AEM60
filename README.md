@@ -11,6 +11,7 @@ Slice - a framework which simplifies Sling/AEM development by using dependency i
 
 ## Prerequisites
 
+* Slice 4.2
 * AEM 6.0
 * Apache Sling 2
 * Maven 2.x, 3.x
