@@ -44,7 +44,7 @@ public class CQMapperModule extends AbstractModule {
 	@ContextScoped
 	public Mapper getMapper(MapperBuilder mapperBuilder) {
 		ImageFieldProcessor imageProcessor = new ImageFieldProcessor();
-		return mapperBuilder.addDefaultSliceProcessors().addFieldProcessor(imageProcessor).build();
+		return mapperBuilder.addDefaultSliceProcessors().addFieldProcessor(imageProcessor)
+				.addCustomPostProcessors().addCustomProcessors().build();
 	}
-
 }
