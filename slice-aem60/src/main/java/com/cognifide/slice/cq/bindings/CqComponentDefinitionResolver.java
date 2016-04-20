@@ -11,27 +11,14 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
 import com.cognifide.slice.api.provider.ComponentDefinitionProvider;
-import com.cognifide.slice.api.provider.ComponentDefinitionResolver;
 import com.day.cq.wcm.api.components.ComponentManager;
 
 @Component
 @Service
-public class CqComponentDefinitionResolver implements ComponentDefinitionResolver, ComponentDefinitionProvider {
+public class CqComponentDefinitionResolver implements ComponentDefinitionProvider {
 
 	@Reference(cardinality = ReferenceCardinality.OPTIONAL_UNARY)
 	private ComponentManager componentManager;
-
-	@Override
-	public Map<String, Object> getComponentDefinition(String resourceType) {
-		if (componentManager != null) {
-			final com.day.cq.wcm.api.components.Component component = componentManager
-					.getComponent(resourceType);
-			if (component != null) {
-				return component.getProperties();
-			}
-		}
-		return null;
-	}
 
 	@Override
 	public Map<String, Object> getComponentDefinition(Resource resource) {
