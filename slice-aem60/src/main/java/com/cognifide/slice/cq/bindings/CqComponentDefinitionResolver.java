@@ -10,12 +10,13 @@ import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
+import com.cognifide.slice.api.provider.ComponentDefinitionProvider;
 import com.cognifide.slice.api.provider.ComponentDefinitionResolver;
 import com.day.cq.wcm.api.components.ComponentManager;
 
 @Component
 @Service
-public class CqComponentDefinitionResolver implements ComponentDefinitionResolver {
+public class CqComponentDefinitionResolver implements ComponentDefinitionResolver, ComponentDefinitionProvider {
 
 	@Reference(cardinality = ReferenceCardinality.OPTIONAL_UNARY)
 	private ComponentManager componentManager;
