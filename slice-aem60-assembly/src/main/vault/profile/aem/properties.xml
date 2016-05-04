@@ -31,4 +31,5 @@
 <entry key="createdBy">${project.organization.name}</entry>
 <entry key="description">${project.description}</entry>
 <entry key="packageFormatVersion">2</entry>
+<entry key="dependencies">com.cognifide.slice:slice-assembly:${slice.version}</entry>
 </properties>
