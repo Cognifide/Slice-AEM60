@@ -11,7 +11,7 @@ Slice - a framework which simplifies Sling/AEM development by using dependency i
 
 ## Prerequisites
 
-* Slice 4.2
+* Slice 4.3
 * AEM 6.0 or 6.1
 * Apache Sling 2
 * Maven 2.x, 3.x
@@ -38,7 +38,7 @@ Add dependency to your POM file:
     <dependency>
         <groupId>com.cognifide.slice-addon</groupId>
         <artifactId>slice-aem60</artifactId>
-        <version>1.1.0</version>
+        <version>1.2.0</version>
     </dependency>
     
 
