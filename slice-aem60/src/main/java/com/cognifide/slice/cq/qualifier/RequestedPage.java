@@ -37,7 +37,7 @@ import com.google.inject.BindingAnnotation;
  * The page that was requested (basically that means the page referenced by remote request).
  * 
  * @author witoldsz
- * @see Path
+ * @see RequestedPagePath
  * @see CurrentPage
  */
 @BindingAnnotation

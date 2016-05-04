@@ -37,7 +37,7 @@ import com.google.inject.BindingAnnotation;
  * Current page is the page of the current component or in other way: head of current path context.
  * 
  * @author witoldsz
- * @see Path
+ * @see CurrentPagePath
  * @see RequestedPage
  */
 @BindingAnnotation

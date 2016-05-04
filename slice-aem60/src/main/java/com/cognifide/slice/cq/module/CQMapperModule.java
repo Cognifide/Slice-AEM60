@@ -38,7 +38,8 @@ public class CQMapperModule extends AbstractModule {
 	/**
 	 * Builds and provides {@link Mapper}
 	 * 
-	 * @return
+	 * @param mapperBuilder mapper builderO
+	 * @return mapper with default slice processors and AEM specific processors
 	 */
 	@Provides
 	@ContextScoped

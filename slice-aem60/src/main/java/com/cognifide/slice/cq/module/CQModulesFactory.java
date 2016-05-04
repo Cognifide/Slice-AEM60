@@ -25,7 +25,6 @@ public class CQModulesFactory {
 	 * <li>{@link DamModule}</li>
 	 * <li>{@link CurrentPageModule}</li>
 	 * <li>{@link RequestedPageModule}</li>
-	 * <li>{@link LinkModule}</li>
 	 * <li>{@link TemplateModule}</li>
 	 * </ul>
 	 * 

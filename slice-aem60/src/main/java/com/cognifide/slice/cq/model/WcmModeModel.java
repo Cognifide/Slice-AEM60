@@ -1,5 +1,7 @@
 package com.cognifide.slice.cq.model;
 
+import com.day.cq.wcm.api.AuthoringUIMode;
+
 /*-
  * #%L
  * Slice - CQ Add-on
@@ -41,7 +43,8 @@ import com.google.inject.Inject;
  * 
  * Please note that since AEM 6.0, it works correctly ONLY in classic interface (see AuthoringUIMode)
  * 
- * @see {@link com.day.cq.wcm.api.WCMMode}, {@link com.day.cq.wcm.api.AuthoringUIMode}
+ * @see WCMMode
+ * @see AuthoringUIMode
  * @author Jan Kuźniak
  */
 public class WcmModeModel {
