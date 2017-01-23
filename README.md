@@ -5,14 +5,14 @@ Slice-AEM60
 
 ## Purpose
 
-This is add-on which extends [Slice](https://github.com/Cognifide/Slice) functionality to support AEM version 6.0 and 6.1. It defines additional Guice modules which provides AEM-specific objects like Page, PageManager, etc.
+This is add-on which extends [Slice](https://github.com/Cognifide/Slice) functionality to support AEM version 6.0, 6.1 and 6.2. It defines additional Guice modules which provides AEM-specific objects like Page, PageManager, etc.
 
 Slice - a framework which simplifies Sling/AEM development by using dependency injection pattern and mapping Sling resources into Java objects. Slice repository: https://github.com/Cognifide/Slice
 
 ## Prerequisites
 
 * Slice 4.3
-* AEM 6.0 or 6.1
+* AEM 6.0, 6.1 or 6.2
 * Apache Sling 2
 * Maven 2.x, 3.x
 
