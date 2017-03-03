@@ -3,6 +3,8 @@
 Slice-AEM60
 ========
 
+![Slice logo](https://github.com/Cognifide/Slice/raw/master/assets/slice_logo.png)
+
 ## Purpose
 
 This is add-on which extends [Slice](https://github.com/Cognifide/Slice) functionality to support AEM version 6.0, 6.1 and 6.2. It defines additional Guice modules which provides AEM-specific objects like Page, PageManager, etc.
