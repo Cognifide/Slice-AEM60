@@ -261,9 +261,9 @@
 						<skip>true</skip>
 						<packageFileName>${assembly.path}</packageFileName>
 						<packageName>${project.artifactId}</packageName>
-						<url>${instance.url}</url>
-						<user>${instance.username}</user>
-						<password>${instance.password}</password>
+						<url>${slice.instance.url}</url>
+						<user>${slice.crx.username}</user>
+						<password>${slice.crx.password}</password>
 					</configuration>
 				</plugin>
 			</plugins>
