@@ -1,15 +1,15 @@
-![Cognifide logo](https://assets.cognifide.com/github/cognifide-logo.png)
+![Wunderman Thompson Technology logo](./assets/wtt-logo.png)
 
 Slice-AEM60
 ========
 
-![Slice logo](https://github.com/Cognifide/Slice/raw/master/assets/slice_logo.png)
+![Slice logo](https://github.com/wttech/Slice/raw/master/assets/slice_logo.png)
 
 ## Purpose
 
-This is add-on which extends [Slice](https://github.com/Cognifide/Slice) functionality to support AEM version 6.3, 6.2, 6.1 and 6.0. It defines additional Guice modules which provides AEM-specific objects like Page, PageManager, etc.
+This is add-on which extends [Slice](https://github.com/wttech/Slice) functionality to support AEM version 6.3, 6.2, 6.1 and 6.0. It defines additional Guice modules which provides AEM-specific objects like Page, PageManager, etc.
 
-Slice - a framework which simplifies Sling/AEM development by using dependency injection pattern and mapping Sling resources into Java objects. Slice repository: https://github.com/Cognifide/Slice
+Slice - a framework which simplifies Sling/AEM development by using dependency injection pattern and mapping Sling resources into Java objects. Slice repository: https://github.com/wttech/Slice
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ Slice and all add-ons are available from Maven Central Repo. However if you want
 Checkout the source code:
 
     cd [folder of your choice]
-    git clone git://github.com/Cognifide/Slice-AEM60.git
+    git clone git://github.com/wttech/Slice-AEM60.git
     cd Slice-AEM60
 
 Compile and install:

@@ -8,7 +8,7 @@ import com.day.cq.wcm.api.AuthoringUIMode;
  * $Id:$
  * $HeadURL:$
  * %%
- * Copyright (C) 2012 Cognifide Limited
+ * Copyright (C) 2012 Wunderman Thompson Technology
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
